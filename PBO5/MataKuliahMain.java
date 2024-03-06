@@ -23,7 +23,7 @@ public class MataKuliahMain {
         
         System.out.println(" --- NILAI IPK --- ");
 
-        double IPK = (mk1.nilaiIndex()+ mk2.nilaiIndex() + mk3.nilaiIndex())/3;
+        double IPK = ((mk1.nilaiIndex()*3)+ (mk2.nilaiIndex()*3) + (mk3.nilaiIndex()*3))/9;
         System.out.println(IPK);
     }
 }
