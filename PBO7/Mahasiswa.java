@@ -23,20 +23,22 @@ public class Mahasiswa {
     
     
 //    SETTER DAN GETTER
-    public void setNRP(String NRP){
-        NRP = NRP;   
+
+    public String getNRP() {
+        return NRP;
     }
-    
-    void setNama(String nama){
-     nama = nama;   
+
+    public void setNRP(String NRP) {
+        this.NRP = NRP;
     }
-    
-    String getNama(String nama){
-      return  nama;   
+
+    public String getNama() {
+        return nama;
     }
-    
-    String getNRP(String NRP){
-     return NRP;   
+
+    public void setNama(String nama) {
+        this.nama = nama;
     }
+
     
 }
